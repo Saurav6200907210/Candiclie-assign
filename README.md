@@ -1,4 +1,4 @@
-# 🎓 School Management System
+#  School Management System
 
 A modern, full-featured **MERN Stack** (MongoDB, Express.js, React.js, Node.js) web application for managing school student records with a professional, responsive UI.
 
@@ -7,7 +7,7 @@ A modern, full-featured **MERN Stack** (MongoDB, Express.js, React.js, Node.js) 
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Full CRUD Operations** — Add, view, edit, and delete students
 - **Dashboard Analytics** — Stats for total students, boys/girls count, classes, avg attendance
@@ -20,7 +20,7 @@ A modern, full-featured **MERN Stack** (MongoDB, Express.js, React.js, Node.js) 
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer     | Technology                                    |
 |-----------|-----------------------------------------------|
@@ -31,7 +31,7 @@ A modern, full-featured **MERN Stack** (MongoDB, Express.js, React.js, Node.js) 
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ├── server/                 # Backend API
@@ -62,7 +62,7 @@ A modern, full-featured **MERN Stack** (MongoDB, Express.js, React.js, Node.js) 
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -129,7 +129,7 @@ The app will open at `http://localhost:3000`. Add students from **Add Student** 
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
 | Method   | Endpoint              | Description             |
 |----------|-----------------------|-------------------------|
@@ -152,7 +152,7 @@ The app will open at `http://localhost:3000`. Add students from **Add Student** 
 
 ---
 
-## 📦 Student Schema
+##  Student Schema
 
 ```javascript
 {
@@ -171,7 +171,7 @@ The app will open at `http://localhost:3000`. Add students from **Add Student** 
 
 ---
 
-## 🌐 Deployment
+##  Deployment
 
 ### Frontend → Vercel
 
@@ -193,6 +193,6 @@ The app will open at `http://localhost:3000`. Add students from **Add Student** 
 
 ---
 
-## 📄 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
