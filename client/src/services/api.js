@@ -23,7 +23,7 @@ export function getApiErrorMessage(error, fallback = 'Something went wrong') {
   const body = error.response?.data?.message;
   if (body) return Array.isArray(body) ? body.join(', ') : body;
   if (!error.response) {
-    return 'Cannot reach the API. Check that the Render backend is awake and Vercel has REACT_APP_API_URL set to https://candiclie-assign.onrender.com/api.';
+    return 'Cannot reach the API. Make sure the backend is running and that Vercel has REACT_APP_API_URL set correctly. If the backend is on Render, also verify Render has CLIENT_URL set to your Vercel app URL.';
   }
   return fallback;
 }
