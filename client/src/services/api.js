@@ -2,11 +2,13 @@ import axios from 'axios';
 
 const apiBaseURL =
   process.env.REACT_APP_API_URL ||
-  (process.env.NODE_ENV === 'development' ? '/api' : 'http://localhost:5000/api');
+  (process.env.NODE_ENV === 'development'
+    ? 'http://localhost:5000/api'
+    : 'https://candiclie-assign.onrender.com/api');
 
 /**
  * Axios instance configured for the backend API.
- * In dev, client/.env points directly to http://localhost:5000/api.
+ * Vercel should set REACT_APP_API_URL. The production fallback points to Render.
  */
 const API = axios.create({
   baseURL: apiBaseURL,
@@ -21,7 +23,7 @@ export function getApiErrorMessage(error, fallback = 'Something went wrong') {
   const body = error.response?.data?.message;
   if (body) return Array.isArray(body) ? body.join(', ') : body;
   if (!error.response) {
-    return 'Cannot reach the API. Start the backend in a separate terminal: cd server, then npm.cmd run dev on Windows PowerShell or npm run dev elsewhere.';
+    return 'Cannot reach the API. Check that the Render backend is awake and Vercel has REACT_APP_API_URL set to https://candiclie-assign.onrender.com/api.';
   }
   return fallback;
 }
