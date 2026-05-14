@@ -4,7 +4,7 @@ const apiBaseURL =
   process.env.REACT_APP_API_URL ||
   (process.env.NODE_ENV === 'development'
     ? 'http://localhost:5000/api'
-    : 'https://candiclie-assign-api.onrender.com/api');
+    : 'https://candiclie-assign.onrender.com/api');
 
 /**
  * Axios instance configured for the backend API.
