@@ -4,7 +4,7 @@ const apiBaseURL =
   process.env.REACT_APP_API_URL ||
   (process.env.NODE_ENV === 'development'
     ? 'http://localhost:5000/api'
-    : 'https://candiclie-assign.onrender.com/api');
+    : 'https://candiclie-assign-api.onrender.com/api');
 
 /**
  * Axios instance configured for the backend API.
@@ -13,7 +13,7 @@ const apiBaseURL =
 const API = axios.create({
   baseURL: apiBaseURL,
   headers: { 'Content-Type': 'application/json' },
-  timeout: 10000,
+  timeout: 30000, // Increased to 30s for Render cold starts
 });
 
 /**
