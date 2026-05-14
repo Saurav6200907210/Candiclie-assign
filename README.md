@@ -20,6 +20,25 @@ A modern, full-featured **MERN Stack** (MongoDB, Express.js, React.js, Node.js) 
 
 ---
 
+##  Preview
+
+###  Home Page
+![Home Page](./screenshots/home.png)
+
+###  Dashboard
+![Dashboard](./screenshots/dashboard.png)
+
+###  Student Listing
+![Student Listing](./screenshots/listing.png)
+
+###  Student Details
+![Student Details](./screenshots/details.png)
+
+###  Add Student
+![Add Student](./screenshots/add.png)
+
+---
+
 ##  Tech Stack
 
 | Layer     | Technology                                    |
