@@ -7,8 +7,13 @@ A modern, full-featured **MERN Stack** (MongoDB, Express.js, React.js, Node.js) 
 
 ---
 
-###  [Live Demo - Frontend](https://candiclie-assign.vercel.app/) | [API Endpoint - Backend](https://candiclie-assign.onrender.com/api)
+## Live Deployment
 
+Frontend URL  
+https://candiclie-assign.vercel.app/
+
+Backend API URL  
+https://candiclie-assign.onrender.com/api
 ---
 
 ##  Features
